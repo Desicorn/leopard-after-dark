@@ -1,0 +1,57 @@
+{
+  "name": "leopard-after-dark",
+  "displayName": "Leopard After Dark",
+  "description": "A low-glare dark VS Code theme with rich, selective color for Python, PowerShell, JSON, GIS, and everyday development.",
+  "version": "1.1.3",
+  "publisher": "kylesaylor",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Leopard After Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leopard-bakery-dark-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "dark theme",
+    "color theme",
+    "low glare",
+    "sensory friendly",
+    "neurodivergent",
+    "midnight",
+    "plum",
+    "forest",
+    "sapphire",
+    "amber",
+    "powershell",
+    "powershell dsc",
+    "python",
+    "json",
+    "arcpy",
+    "arcgis",
+    "gis",
+    "geospatial",
+    "developer theme",
+    "leopard"
+  ],
+  "icon": "images/mika-icon.png",
+  "galleryBanner": {
+    "color": "#1D181F",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Desicorn/leopard-after-dark.git"
+  },
+  "homepage": "https://github.com/Desicorn/leopard-after-dark#readme",
+  "bugs": {
+    "url": "https://github.com/Desicorn/leopard-after-dark/issues"
+  }
+}

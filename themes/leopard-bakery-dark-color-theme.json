@@ -1,0 +1,458 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Leopard Bakery Dark",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#1D181F",
+    "editor.foreground": "#C1B8B5",
+    "editorLineNumber.foreground": "#6F686E",
+    "editorLineNumber.activeForeground": "#D5A85A",
+    "editorCursor.foreground": "#D9A348",
+    "editor.selectionBackground": "#403449",
+    "editor.inactiveSelectionBackground": "#302838",
+    "editor.lineHighlightBackground": "#28212B",
+    "editor.findMatchBackground": "#5A4930",
+    "editor.findMatchHighlightBackground": "#40362D",
+    "editorIndentGuide.background1": "#34313B",
+    "editorIndentGuide.activeBackground1": "#574052",
+    "editorWhitespace.foreground": "#393139",
+    "editorBracketMatch.background": "#343A5066",
+    "editorBracketMatch.border": "#7196B1",
+    "editorGutter.background": "#1D181F",
+    "editorError.foreground": "#D66C72",
+    "editorWarning.foreground": "#D5A85A",
+    "editorInfo.foreground": "#7196B1",
+    "editorHint.foreground": "#708C78",
+    "activityBar.background": "#181B29",
+    "activityBar.foreground": "#D8D0C4",
+    "activityBar.inactiveForeground": "#77859A",
+    "activityBarBadge.background": "#3F5A4C",
+    "activityBarBadge.foreground": "#D8D0C4",
+    "sideBar.background": "#18151B",
+    "sideBar.foreground": "#C1B8B5",
+    "sideBarTitle.foreground": "#D8D0C4",
+    "sideBarSectionHeader.background": "#20202B",
+    "sideBarSectionHeader.foreground": "#A9ADB0",
+    "list.activeSelectionBackground": "#343A50",
+    "list.activeSelectionForeground": "#D8D0C4",
+    "list.inactiveSelectionBackground": "#2C2530",
+    "list.hoverBackground": "#2C2530",
+    "focusBorder": "#77859A",
+    "foreground": "#C1B8B5",
+    "descriptionForeground": "#91898C",
+    "disabledForeground": "#6F686E",
+    "titleBar.activeBackground": "#202330",
+    "titleBar.activeForeground": "#D8D0C4",
+    "titleBar.inactiveBackground": "#181B29",
+    "titleBar.inactiveForeground": "#91898C",
+    "tab.activeBackground": "#1D181F",
+    "tab.activeForeground": "#D9A348",
+    "tab.inactiveBackground": "#20202B",
+    "tab.inactiveForeground": "#91898C",
+    "tab.activeBorderTop": "#D9A348",
+    "editorGroupHeader.tabsBackground": "#20202B",
+    "panel.background": "#1B1821",
+    "panel.border": "#343A50",
+    "panelTitle.activeForeground": "#D8D0C4",
+    "panelTitle.inactiveForeground": "#91898C",
+    "panelTitle.activeBorder": "#95627D",
+    "statusBar.background": "#181B29",
+    "statusBar.foreground": "#C1B8B5",
+    "statusBar.debuggingBackground": "#574052",
+    "statusBar.noFolderBackground": "#241E27",
+    "input.background": "#241E27",
+    "input.foreground": "#C1B8B5",
+    "input.border": "#393139",
+    "input.placeholderForeground": "#6F686E",
+    "dropdown.background": "#241E27",
+    "dropdown.foreground": "#C1B8B5",
+    "dropdown.border": "#393139",
+    "button.background": "#3F5A4C",
+    "button.foreground": "#D8D0C4",
+    "button.hoverBackground": "#4B6758",
+    "badge.background": "#574052",
+    "badge.foreground": "#D8D0C4",
+    "progressBar.background": "#3F5A4C",
+    "textLink.foreground": "#7196B1",
+    "textLink.activeForeground": "#91A8AE",
+    "peekView.border": "#574052",
+    "peekViewEditor.background": "#211B24",
+    "peekViewResult.background": "#18151B",
+    "terminal.foreground": "#C1B8B5",
+    "terminal.background": "#1D181F",
+    "terminal.ansiBlack": "#393139",
+    "terminal.ansiRed": "#D66C72",
+    "terminal.ansiGreen": "#708C78",
+    "terminal.ansiYellow": "#D5A85A",
+    "terminal.ansiBlue": "#7196B1",
+    "terminal.ansiMagenta": "#A57898",
+    "terminal.ansiCyan": "#91A8AE",
+    "terminal.ansiWhite": "#C1B8B5",
+    "terminal.ansiBrightBlack": "#6F686E",
+    "terminal.ansiBrightRed": "#C66C55",
+    "terminal.ansiBrightGreen": "#8BA28F",
+    "terminal.ansiBrightYellow": "#D9A348",
+    "terminal.ansiBrightBlue": "#8AA9C0",
+    "terminal.ansiBrightMagenta": "#B87B88",
+    "terminal.ansiBrightCyan": "#A9BDC0",
+    "terminal.ansiBrightWhite": "#D8D0C4",
+    "activityBar.border": "#343A50",
+    "activityBar.activeBorder": "#D9A348",
+    "editorGroupHeader.tabsBorder": "#343A50",
+    "tab.border": "#343A50",
+    "sideBar.border": "#343A50",
+    "statusBar.border": "#343A50",
+    "breadcrumb.foreground": "#91898C",
+    "breadcrumb.focusForeground": "#D8D0C4",
+    "breadcrumb.activeSelectionForeground": "#77859A",
+    "list.highlightForeground": "#D9A348"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments \u2014 Juni forest",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#708C78",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Strings \u2014 Bunny dusty rose",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.template",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#B87B88"
+      }
+    },
+    {
+      "name": "Numbers and constants \u2014 Juni stone blue",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "#91A8AE"
+      }
+    },
+    {
+      "name": "Keywords \u2014 Mika violet",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.control",
+        "keyword.operator.word"
+      ],
+      "settings": {
+        "foreground": "#8D78A0"
+      }
+    },
+    {
+      "name": "Types and classes \u2014 Bunny mauve",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "support.class",
+        "meta.type.annotation"
+      ],
+      "settings": {
+        "foreground": "#A57898"
+      }
+    },
+    {
+      "name": "Functions and calls \u2014 Fox amber",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call entity.name.function",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#D9A348"
+      }
+    },
+    {
+      "name": "Parameters \u2014 Mika sapphire",
+      "scope": [
+        "variable.parameter",
+        "meta.function.parameters variable",
+        "support.variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#7196B1"
+      }
+    },
+    {
+      "name": "Properties and members \u2014 warm cream",
+      "scope": [
+        "variable.other.property",
+        "support.variable.property",
+        "meta.object-literal.key",
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#D2B89A"
+      }
+    },
+    {
+      "name": "Variables \u2014 Bunny agouti",
+      "scope": [
+        "variable.other",
+        "variable.other.readwrite",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#B09A8A"
+      }
+    },
+    {
+      "name": "Operators and punctuation \u2014 Mika smoke",
+      "scope": [
+        "keyword.operator",
+        "punctuation",
+        "meta.brace",
+        "meta.delimiter"
+      ],
+      "settings": {
+        "foreground": "#89909F"
+      }
+    },
+    {
+      "name": "PowerShell command names \u2014 Fox amber",
+      "scope": [
+        "support.function.powershell",
+        "entity.name.function.powershell",
+        "meta.function-call.powershell"
+      ],
+      "settings": {
+        "foreground": "#D9A348"
+      }
+    },
+    {
+      "name": "PowerShell parameters \u2014 Mika sapphire",
+      "scope": [
+        "variable.parameter.powershell",
+        "meta.parameter.powershell"
+      ],
+      "settings": {
+        "foreground": "#7196B1"
+      }
+    },
+    {
+      "name": "PowerShell types \u2014 Bunny mauve",
+      "scope": [
+        "support.type.powershell",
+        "meta.type.powershell"
+      ],
+      "settings": {
+        "foreground": "#A57898"
+      }
+    },
+    {
+      "name": "Python decorators \u2014 Mika sapphire",
+      "scope": [
+        "entity.name.function.decorator.python",
+        "meta.function.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#7196B1"
+      }
+    },
+    {
+      "name": "Python self/cls \u2014 muted mushroom",
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#91898C"
+      }
+    },
+    {
+      "name": "PowerShell Configuration \u2014 Alpine Teal",
+      "scope": "storage.type.powershell",
+      "settings": {
+        "foreground": "#356B78"
+      }
+    },
+    {
+      "name": "PowerShell parameter attributes \u2014 Deep Mulberry",
+      "scope": "variable.parameter.attribute.powershell",
+      "settings": {
+        "foreground": "#85516F"
+      }
+    },
+    {
+      "name": "PowerShell language constants \u2014 Deep Forest",
+      "scope": "constant.language.powershell",
+      "settings": {
+        "foreground": "#66733F"
+      }
+    },
+    {
+      "name": "PowerShell configuration \u2014 Alpine teal",
+      "scope": [
+        "storage.type.powershell"
+      ],
+      "settings": {
+        "foreground": "#356B78"
+      }
+    },
+    {
+      "name": "PowerShell parameter attributes \u2014 mulberry",
+      "scope": [
+        "variable.parameter.attribute.powershell"
+      ],
+      "settings": {
+        "foreground": "#85516F"
+      }
+    },
+    {
+      "name": "PowerShell constants \u2014 Juni forest",
+      "scope": [
+        "constant.language.powershell"
+      ],
+      "settings": {
+        "foreground": "#66733F"
+      }
+    },
+    {
+      "name": "Python comments/docstrings \u2014 Juni forest",
+      "scope": [
+        "comment.line.number-sign.python",
+        "comment.block.python",
+        "string.quoted.docstring.multi.python",
+        "string.quoted.docstring.single.python"
+      ],
+      "settings": {
+        "foreground": "#708C78",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python class keyword \u2014 Alpine teal",
+      "scope": [
+        "storage.type.class.python"
+      ],
+      "settings": {
+        "foreground": "#356B78"
+      }
+    },
+    {
+      "name": "Python def keyword \u2014 Mika violet",
+      "scope": [
+        "storage.type.function.python"
+      ],
+      "settings": {
+        "foreground": "#8D78A0"
+      }
+    },
+    {
+      "name": "Python imports \u2014 Alpine teal",
+      "scope": [
+        "keyword.control.import.python",
+        "keyword.control.from.python"
+      ],
+      "settings": {
+        "foreground": "#356B78"
+      }
+    },
+    {
+      "name": "Python constants \u2014 Juni forest",
+      "scope": [
+        "constant.language.python"
+      ],
+      "settings": {
+        "foreground": "#66733F"
+      }
+    },
+    {
+      "name": "Python types/classes \u2014 Mika smoky sapphire",
+      "scope": [
+        "support.type.python",
+        "entity.name.type.class.python",
+        "entity.name.type.python"
+      ],
+      "settings": {
+        "foreground": "#77859A"
+      }
+    },
+    {
+      "name": "Python modules/namespaces \u2014 Mika mulberry",
+      "scope": [
+        "entity.name.namespace.python",
+        "support.other.module.python"
+      ],
+      "settings": {
+        "foreground": "#95627D"
+      }
+    },
+    {
+      "name": "Python function declarations \u2014 Mika sapphire",
+      "scope": [
+        "entity.name.function.python"
+      ],
+      "settings": {
+        "foreground": "#7196B1"
+      }
+    },
+    {
+      "name": "Python bright structural punctuation",
+      "scope": [
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python",
+        "punctuation.definition.parameters.begin.python",
+        "punctuation.definition.parameters.end.python",
+        "punctuation.separator.annotation.result.python"
+      ],
+      "settings": {
+        "foreground": "#9CCFDB"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "function": "#D9A348",
+    "method": "#D9A348",
+    "type": "#77859A",
+    "class": "#77859A",
+    "interface": "#A57898",
+    "enum": "#A57898",
+    "typeParameter": "#A57898",
+    "parameter": "#95627D",
+    "variable": "#B09A8A",
+    "property": "#D2B89A",
+    "enumMember": "#91A8AE",
+    "decorator": "#7196B1",
+    "namespace": "#95627D",
+    "keyword": "#8D78A0",
+    "string": "#B87B88",
+    "number": "#91A8AE",
+    "operator": "#89909F",
+    "comment": {
+      "foreground": "#708C78",
+      "italic": true
+    },
+    "*.declaration": {
+      "bold": false
+    },
+    "function.declaration": "#7196B1",
+    "method.declaration": "#7196B1",
+    "class.declaration": "#D5A85A",
+    "variable.readonly": "#A99A8A",
+    "property.readonly": "#D0C3AE",
+    "selfParameter": "#95627D",
+    "type.defaultLibrary": "#77859A",
+    "class.defaultLibrary": "#77859A"
+  }
+}
