@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.4
+- Fixed the missing Visual Studio Marketplace Overview by registering the README as a Marketplace content asset.
+- Registered changelog and license assets for display in the Marketplace.
+- No changes to theme colors, syntax highlighting, or editor styling.
+
 ## 1.1.3
 - Added public repository metadata and improved Marketplace screenshot handling.
 - Refined README palette description and furry bakery tagline.
